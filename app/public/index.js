@@ -37,6 +37,7 @@ window.addEventListener('load', async () => {
             task.innerHTML = ""
             const input = document.createElement('input')
             input.value = element.name
+            input.className = "input-task"
 
             const confirmBtn = document.createElement('button')
             confirmBtn.innerHTML = "Confirmar"

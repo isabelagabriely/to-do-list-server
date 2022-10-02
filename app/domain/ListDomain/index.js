@@ -3,7 +3,7 @@ const mapper = require('./mapper')
 
 const validateRequestData = (requestData) => {
     if(!requestData.task?.trim()) {
-        throw "A tarefa não pode ser vazia"
+        throw "A tarefa não pode ser vazia."
     }
 }
 
